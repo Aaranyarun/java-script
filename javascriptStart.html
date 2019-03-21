@@ -1,0 +1,31 @@
+<html>
+<head>
+
+</head>
+
+<body>
+
+Enter  number of stars :<input type="text" id="stars"/>
+<br> <br>
+
+
+<button onclick="abc()">Add Number </button>
+
+<script>
+function printstars(){
+
+ var  num1=eval(document.getElementById("stars").value);
+  var ak="";
+ for(i=1;i<=num1;i++){
+ ak=ak+"*<br/>";
+ }
+ document.getElementById("starspara").innerHTML=ak;
+ }
+
+</script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,99 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<h1 id="heading">WEL COME</h1>
+<p id="paral">hoftjngntjknhtynhtynmktm</p>
+<h2 id="marksheading">Your Marks:</h2>
+<p id="aaa"></p>
+
+Enter 1st number: <input type="text" id="txtNumber"/>
+
+<select id="abc">
+
+
+
+</select>
+
+<ul>
+<script>
+var classification=["Law","Maths","Science"];
+for(i=0;i<4;i++) 
+{
+document.write("<li>"+classification[i]+"</li>");
+}
+
+
+</script>
+</ul>
+
+<ul>
+<script>
+var A;
+for(var i=0;i<4;i++)
+{
+A=A+"<option>"+i+"</option>";
+}
+document.getElementById("aaa").innerHTML = A;
+}
+
+</script>
+</ul>
+
+
+
+
+<table border=1>
+<script>
+var i=1;
+while(i<=30){
+if(i%2==0){
+document.write("<tr><td>"+i+"</tr></td>)");
+}else{
+document.write("<tr><td>"+i+"</tr></td>)");
+}
+i++;
+}
+
+</script>
+</table>
+<script>
+document.getElementById("heading").style.color="red";
+document.getElementById("paral").innerHTML="aaaaaaaaaa";
+//document.write("Hello World");
+
+var str;
+for(var i=1;i<=30;i++){
+str=str+"<option>"+i+"</option>";
+
+}
+document.getElementById("abc").innerHTML=str;
+//document.getElementById("abc").innerHTML="<option>assas</option><option>ttttt</option><option>kkkk</option>";
+
+
+var marks=67;
+
+if(marks>50){
+console.log("your are pass");
+document.getElementById("marksheading").style.backgroundcolor="green";
+}else
+console.log("you r fail");
+
+
+
+
+
+
+
+
+
+</script>
+
+
+ 
+
+</table>
+</body>
+</html>
